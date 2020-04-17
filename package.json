@@ -1,0 +1,25 @@
+{
+    "name": "node-red-contrib-prehub",
+    "version": "0.1.0",
+    "description": "node red prehub",
+    "main": "prehub.js",
+    "scripts": {
+        "test": "test"
+    },
+    "keywords": [
+        "node",
+        "red",
+        "mqtt",
+        "prehub"
+    ],
+    "author": "smacken",
+    "license": "ISC",
+    "node-red": {
+        "nodes": {
+            "prehub": "prehub.js"
+        }
+    },
+    "devDependencies": {
+        "@types/node": "^13.11.1"
+    }
+}
